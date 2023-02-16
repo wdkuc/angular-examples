@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {TranslateService} from '../translate.service';
+import { TranslateService } from '@monolit-lazy-loading-nx/shared';
 
 @Component({
   selector: 'app-form',
