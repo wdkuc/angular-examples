@@ -1,0 +1,4 @@
+<app-field-with-label (valueChanged)="translated = translateService.provideTranslate($event)"
+                      [label]="'Key to translate'"></app-field-with-label>
+<div>Translated value {{translated}}
+</div>
